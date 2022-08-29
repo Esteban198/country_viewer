@@ -12,7 +12,6 @@ return (
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>
           Capital : {props.capital}</Card.Text>
-          <Card.Text>{props.location}</Card.Text>
           <Card.Text> Population: {props.population.toLocaleString("en-US")}</Card.Text>
         <Button onClick={goToCountry}
         >Go somewhere</Button>
